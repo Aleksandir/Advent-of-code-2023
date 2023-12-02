@@ -1,0 +1,1 @@
+The file `/advent-of-code-2023/day1/challenge2/input.txt` is a text file that contains the input data for the second challenge of the first day. The content of this file will depend on the specific challenge for that day. If the file is supposed to be empty, it would be left as such without any content.
