@@ -10,7 +10,7 @@ for line in lines:
 
 
 def main():
-    cubes = {"red": 12, "blue": 13, "green": 14}
+    cubes = {"red": 12, "blue": 14, "green": 13}
     # for every game/line
     # for every cell in list
     # ignoring the index 0 and 1, if cell in cubes
@@ -18,14 +18,16 @@ def main():
     # if the count of the value pair in the dict is lower than the count in the game
     # add the game number to the return value to sum up the games where the cube count is lower
 
-    return_value = 1
+    return_value = 0
 
     for game in split_lines:
         index = 0
         for cell in game[1:]:
             if cell in cubes:
                 if cubes[cell] < int(game[index]):
-                    return_value += int(game[1].strip(":"))
+                    break
+                elif index == len(game) - 1:
+                    return_value += int(game[0])
 
             index += 1
 
