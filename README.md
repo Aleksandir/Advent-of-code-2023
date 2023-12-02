@@ -1,6 +1,7 @@
 # Advent of Code 2023
 
-This repository is dedicated to documenting my journey through the 2023 Advent of Code (AoC) using the Go programming language. 
+This repository is dedicated to documenting my journey through the 2023 Advent of Code (AoC) using the Go programming language.
+the AoC is an annual event where participants are given a new coding challenge each day for the month of December. The challenges are designed to be fun and engaging while also being a great way to learn a new programming language or sharpen your skills in a language you already know. it can be found at [adventofcode.com](https://adventofcode.com/).
 
 ## Structure
 
